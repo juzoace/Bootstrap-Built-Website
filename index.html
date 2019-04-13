@@ -40,12 +40,11 @@
     <h1 class="display-2">Full Stack Conference</h1>
     <p class="lead">A One-day Conference About All Things Javascript</p>
       
-      <div class="btn-group m-t-2" role="group" aria-label="Basic example">
-          
-          <button type="button" class="btn btn-secondary btn-lg">Register Now</button>
-          <a class="btn btn-secondary href=">See Speakers</button>
-          
-      </div>
+      <div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Register Now</button>
+  <a class="btn btn-secondary btn-lg" href="#speakers">See Speakers</a>
+  
+</div>
       
   </div>
 </div>
@@ -63,34 +62,133 @@
            </div>
         <div class="col-md-4 col-lg-pull-4">
            	<h3 class="m-b-2">Expert Speakers</h3>
-  	         <p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!</p>
+  	      <p>Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!</p>
 		      <p>Want to meet the international JavaScript community and share skills with some of the world's top experts, hackers, and makers? Be the first to know what to expect for the future of JavaScript.</p>
-		      <p>Full Stack Conference is committed to   being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.</p>
+		      <p>Full Stack Conf is committed to   being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.</p>
 				
            </div>
         <div class="col-md-4">
             <h3 class="m-b-2">What You'll Learn</h3>
-            <ul>
-                <li><strong>MongoDB</strong>: NoSQL database</li>
-                <li><strong>Angular</strong>: Javascript framework</li>
-                <li><strong>Express</strong>: Framework for Node</li>
-                <li><strong>Node.js</strong>: Javascript environment</li>
-                <li><strong>ES2015</strong>: Latest version of Javascript</li>
-                <li><strong>Babel</strong>: Javascript compiler</li>
-            </ul>
+            <div class="list-group">
+                <a href="#" class="list-group-item"><strong>MongoDB</strong>: NoSQL database</a>
+                
+                <a href="#" class="list-group-item"><strong>Angular</strong>: Javascript framework</a>
+                
+                <a href="#" class="list-group-item"><strong>Express</strong>: Framework for Node</a>
+                    
+                <a href="#" class="list-group-item"><strong>Node.js</strong>: Javascript environment</a>
+                    
+                <a href="#" class="list-group-item"><strong>ES2015</strong>: Latest version of Javascript</a>
+                
+                <a href="#" class="list-group-item"><strong>Babel</strong>: Javascript compiler</a>
+                
+            </div>
            </div>
         
        </div><!--  about     -->
     
        
 <!--   speakers     -->
-       <h1 class="display-4 text-xs-center m-y-3 text-muted">Speakers</h1>
-       [Speaker bios go here]
+       <h1 id="speakers" class="display-4 text-xs-center m-y-3 text-muted">Speakers</h1>
+       <div class="row">
+           <div class="col-md-6 col-lg-4">
+					<div class="card">
+						<img class="card-img-top img-fluid" src="img/angie.png" alt="Card image cap">
+						<div class="card-block">
+							<h4 class="card-title">Angie McAngular</h4>
+							<p class="card-text">Angie is a web developer and teacher who is passionate about building scalable, data driven web apps, especially ones that address old problems with new tech!</p>
+						</div>
+					</div>
+				</div>
+            
+              <div class="col-md-6 col-lg-4">
+					<div class="card">
+						<img class="card-img-top img-fluid" src="img/nodestradamus.png" alt="Card image cap">
+						<div class="card-block">
+							<h4 class="card-title">NodeStradamus</h4>
+							<p class="card-text">"NodeStra" is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.</p>
+						</div>
+					</div>
+				</div> 
+           
+               
+               <div class="col-md-6 col-lg-4">
+			    <div class="card">
+			      <img class="card-img-top img-fluid" src="img/geo.png" alt="Card image cap">
+			      <div class="card-block">
+			        <h4 class="card-title">Geo "Lo" Cation</h4>
+			        <p class="card-text">Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.</p>
+			      </div>
+			    </div>
+				</div>
+               
+           </div>
+               
+               <div class="col-md-6 col-lg-4">
+				  <div class="card">
+			      <img class="card-img-top img-fluid" src="img/ecma.png" alt="Card image cap">
+			      <div class="card-block">
+			        <h4 class="card-title">Ecma Scriptnstuff</h4>
+			        <p class="card-text">Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.</p>
+			      </div>
+			    </div>
+				</div>
+               
+        
+           
+               
+               <div class="col-md-6 col-lg-4">
+			    <div class="card">
+			      <img class="card-img-top img-fluid" src="img/jay.png" alt="Card image cap">
+			      <div class="card-block">
+			        <h4 class="card-title">Jay Query</h4>
+			         <p class="card-text">Jay is a developer, author of CSS: The Missing Manual, JavaScript &amp; jQuery: The Missing Manual, and web development teacher.</p>
+			      </div>
+			    </div>
+				</div>
+               
+        
+           
+               
+               <div class="col-md-6 col-lg-4">
+			    <div class="card">
+			      <img class="card-img-top img-fluid" src="img/json.png" alt="Card image cap">
+			      <div class="card-block">
+			        <h4 class="card-title">Json Babel</h4>
+			        <p class="card-text">All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.</p>
+			      </div>
+			    </div>
+				</div>
+               
+           
+       </div>
        
 <!--   schedule       -->
        <h1 class="display-4 text-xs-center m-y-3 text-muted">Schedule</h1>
-       [Conference schedule goes here]
-       <button type="button" class="btn btn-info-outline btn-lg center-block m-y-3">Dont Miss Out, Register Now!</button>
+       
+    <ul class="list-group">
+        <li class="list-group-item">
+            <h4 class="list-group-item-heading">Keynote: Internet of Things <span class="label label-info label-pill pull-xs-right">9:00am</span></h4> Nodestradamus
+        
+        </li>
+        <li class="list-group-item">
+        
+            <h4 class="list-group-item-heading">Angular Basics: Internet of Things <span class="label label-info label-pill pull-xs-right">10:00am</span></h4> Angie McAngular
+         
+        </li>
+        <li class="list-group-item">   
+        <h4 class="list-group-item-heading"> Hey, Mongo! <span class="label label-info label-pill pull-xs-right">11:00am</span></h4> Jay Query
+        
+        </li>
+        <li class="list-group-item">   
+        <h4 class="list-group-item-heading"> Lunch <span class="label label-info label-pill pull-xs-right">12:00am</span></h4> Free Shawarma for Everyone!!!
+        
+        </li>
+    </ul>
+    
+    
+    
+       <button type="button" class="btn btn-info-outline btn-lg center-block m-y-3" data-toggle="modal" data-target="#register">Dont Miss Out, Register Now!</button>
        
        <!--  Signup Form   -->
     <hr>
@@ -111,9 +209,74 @@
        </div>
        <hr>  <!--   /signup form    -->     
     
+       
+       <!--   footer    -->
+       <div class="row p-y-1">
+           <div class="col-md-7">
+       
+               <ul class="nav nav-inline">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Community</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Tracks</a>
+                      </li>
+                      <li class="nav-item">
+                       
+                          	<!-- Split button -->
+							<div class="btn-group dropup">
+								<button type="button" class="btn btn-secondary">Other Conferences</button>
+								<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<span class="sr-only">Toggle Dropdown</span>
+								</button>
+								<div class="dropdown-menu">
+									<a class="dropdown-item" href="#">CSS Conference</a>
+									<a class="dropdown-item" href="#">Python Conference</a>
+									<a class="dropdown-item" href="#">Java Conference</a>
+									<a class="dropdown-item" href="#">Swift Conference</a>
+								</div>
+							</div>
+                          
+                      </li>
+                      
+                    </ul>
+               
+       </div>	
+            <div class="col-md-5 text-md-right">
+				<small>&copy; 2016 Full Stack Conference &amp; House of Ace</small>
+				</div>
+       </div>
+       <!--   /footer    -->
+       
     </div><!-- .container--> 
     
     
+    
+    
+<!--    FORM Modal-->
+
+    <div id="register" class="modal fade">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Register for Full Stack Conference</h5>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
     <!--jQuery first, then bootstrap js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
